@@ -1,0 +1,66 @@
+body{
+    height: 1160px;
+background: linear-gradient(#2BB8B3, #E151AF);
+}
+#accordion{
+    background-color: #BED7D8;
+    border: ridge 3px #2BB8B3;
+}
+#inside{
+    background-color: #FED43F;
+}
+#place{
+    background-color: #2BB8B3;
+}
+#form{
+    background-color: #E151AF;
+}
+#date{
+    background-color: #BED7D8;
+}
+.text{
+    float: right;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    margin-top: -11px;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #FED43F;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #BED7D8;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #FED43F;
+    color: #E151AF;
+  }
+.image{
+    margin-top: 90px;
+    margin-left: 300px;
+    border: ridge 10px #FED43F;
+}
+#progressbar{
+    border: groove 5px #2BB8B3;
+    margin-top: 150px;
+    box-shadow: 5px 5px 20px black;
+    margin-bottom: 25px;
+}
+.promote{
+    margin-right: 300px;
+    font-size: 20px;
+    float: right;
+    background-color: #2BB8B3;
+    border: ridge 10px #FED43F;
+    padding: 5px;
+}
