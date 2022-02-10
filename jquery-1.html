@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Accordion - Default functionality</title>
+  <link rel="stylesheet" href="Potato.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion();
+  } );
+  </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+      $( "#progressbar" ).progressbar({
+        value: false
+      });
+    } );
+    </script>
+      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+      <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+      <script>
+      $( function() {
+        $( "#datepicker" ).datepicker();
+      } );
+      </script>
+</head>
+<body>
+
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+
+  <img class="image" src="Vacation.jpg" alt="island"> <br>
+
+  <div class="promote"><p>find your dream vacation at dream vacation today!</p></div>
+
+  <div id="progressbar"></div>
+ 
+<div id="accordion">
+  <h3>Vacation ideas</h3>
+  <div id="inside">
+    <p>
+      Top best places to go on vacation.
+    </p>
+    <ul>
+      <li>South Island, New Zealand.</li>
+      <li>Paris.</li>
+      <li>Bora Bora.</li>
+      <li>Maui.</li>
+      <li>Tahiti.</li>
+      <li>London.</li>
+      <li>Rome.</li>
+      <li>Phuket.</li>
+    </ul>
+  </div>
+  <h3>Cheapest places to travel to.</h3>
+  <div id="place">
+      <ul>
+        <li>Costa Rica.</li>
+        <li>Vietnam.</li>
+        <li>Ukraine.</li>
+        <li>Romania.</li>
+        <li>China.</li>
+        <li>India.</li>
+        <li>Argentina.</li>
+        <li>Cambodia.</li>
+      </ul>
+  </div>
+  <h3>Fill in form</h3>
+  <div id="form">
+    <form>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname">
+    </form>
+    <br>
+    <p>Preferred vacation environment:</p>
+    <form>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="desert">Desert</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="tropical">Tropical</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="snowy">Snowy</label><br>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="jungle">Jungle</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="forest">Forest</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="grassland">Grassland</label>
+      </form>
+      <br>
+    <p>Spending limit:</p>
+    <form>
+      <label for="quantity">Quantity (between $100 and $10,000):</label>
+      <input type="number" id="quantity" name="quantity" min="100" max="10000">
+      <input type="submit">
+    </form>
+  </div>
+  <h3>pick a date for your vacation</h3>
+  <div id="date">
+    <p>Date: <input type="text" id="datepicker"></p> <br>
+    <p class="text">pick a date that you're able to go on your dream vacation.</p>
+  </div>
+</div>
+</body>
+</html>
